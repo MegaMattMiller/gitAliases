@@ -1,0 +1,19 @@
+[alias]
+    co = checkout # Shortcut for checkout.
+    nb = checkout -b # Create a new branch and check it out.
+    bl = branch -l # List all local branches.
+    br = branch -r # List all remote branches.
+    blr = branch -a # Show local and remote branches.
+    bd = branch -d # Politely ask Git to delete a local branch.
+    bdf = branch -D # Sternly ask Git to delete a local branch.
+    fp = fetch -p # Fetch and prune.
+    sync = !git pull && git push # Pull then push current branch.
+    mm = !git fetch -p && git merge origin/master #Merge remote master into the current branch.
+    cm = commit # Shortcut for commit.
+    cma = commit -a # Commit all tracked.
+    cmam = commit -a -m # Commit all tracked with message to follow.
+    runAway = reset --hard # For when you just want it all to go away.
+    forgetAbout = rm --cached # Make Git forget about a tracked file.
+    alias = config --get-regexp ^alias\\. # List all aliases.
+    ec = config --global -e # Open .gitconfig in your default editor.
+    s = status
