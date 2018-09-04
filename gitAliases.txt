@@ -18,3 +18,4 @@
     alias = config --get-regexp ^alias\\. # List all aliases.
     ec = config --global -e # Open .gitconfig in your default editor.
     s = status # Shortcut for status.
+    news = log -p @{1}.. # List all changes since last pull.
