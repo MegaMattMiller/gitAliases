@@ -1,5 +1,6 @@
 [alias]
     co = checkout # Shortcut for checkout.
+    gud = checkout # Fun shortcut for checkout.
     nb = checkout -b # Create a new branch and check it out.
     bl = branch -l # List all local branches.
     br = branch -r # List all remote branches.
@@ -16,4 +17,4 @@
     forgetAbout = rm --cached # Make Git forget about a tracked file.
     alias = config --get-regexp ^alias\\. # List all aliases.
     ec = config --global -e # Open .gitconfig in your default editor.
-    s = status
+    s = status # Shortcut for status.
