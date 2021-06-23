@@ -15,10 +15,10 @@ Download the file `gitalias.txt` and put it anywhere you want:
 
     curl -O https://raw.githubusercontent.com/MegaMattMiller/gitAliases/master/gitAliases.txt
 
-Edit your file `.gitconfig` and include `gitalias.txt` such as:
+Edit your file `.gitconfig` and include `gitAliases.txt` such as:
 
     [include]
-        path = path/to/gitalias.txt
+        path = path/to/gitAliases.txt
 
 ## Branching
 
