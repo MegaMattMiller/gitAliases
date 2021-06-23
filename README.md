@@ -11,7 +11,7 @@ In the last few years since switching from SVN to Git, I've picked up a few alia
 
 ## Installation
 
-Download the file `gitalias.txt` and put it anywhere you want:
+Download the file `gitAliases.txt` and put it anywhere you want:
 
     curl -O https://raw.githubusercontent.com/MegaMattMiller/gitAliases/master/gitAliases.txt
 
